@@ -1,0 +1,26 @@
+#cat-image {
+	height: 200px;
+	border-radius: 50%;
+	margin-left: 2%;
+	margin-top: 2%;
+	float: left;
+}
+
+#math-title {
+	padding-top: 6%;
+	padding-left: 20%;
+	text-decoration: underline;
+}
+
+p, form {
+	width: 50%;
+	padding-left: 20%;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: 5% 4% 2% 4%;
+}

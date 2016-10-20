@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<title><%= @title %></title>
+</head>
+<body>
+
+	<div>
+		<img src="/img/baby_kratos.jpg" alt="My Cat Kratos" id="cat-image">
+	</div>
+	<div>
+		<h1 id="math-title">Math - Factorials</h1>
+
+		<p>Today, Kratos, the mathematician is going to teach you about factorials. What's factorials you say? A factorial is the product of all positive integers less than or equal to n. If you want to learn more, feel free to check out <a href="https://en.wikipedia.org/wiki/Factorial" target="blank">factorial</a>wiki.</p>
+
+		<hr class="style-one">
+	</div>
+	
+	<%= yield %>
+</body>
+</html>
