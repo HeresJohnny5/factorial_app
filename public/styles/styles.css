@@ -24,3 +24,25 @@ hr.style-one {
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
     margin: 5% 4% 2% 4%;
 }
+
+.button a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.button {
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	font-size: 1em;
+	border-radius: 15px;
+	padding: 5px 8px;
+}
+
+.button:hover {
+	background-color: cadetblue;
+	color: #000000;
+}
+
+button a:hover {
+	color: white;
+}

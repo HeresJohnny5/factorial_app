@@ -5,7 +5,7 @@ require_relative 'functions.rb'
 enable :sessions
 
 get '/' do
-	@title = "Factorials"
+	@title = 'Factorials'
 	erb :get_number
 end
 
